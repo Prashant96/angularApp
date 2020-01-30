@@ -1,0 +1,30 @@
+.txt-sec{
+    width: 50%;
+    background: #fff;
+    margin: 10 px 5px;
+    float: right
+}
+.heading-blue{
+    color:#52a3fd;
+    font-size: 18px;
+}
+.txt-sec p{
+    color:#858585;
+    font-size:16px;
+    padding: 10px 0;
+    line-height: 20px;
+}
+.btn-blue{
+    background: #52a3fd;
+    color: #fff;
+    padding: 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    float: right;
+}
+.btn-blue:hover{
+    background: black;
+}
+.clear{
+    clear: both;
+}
