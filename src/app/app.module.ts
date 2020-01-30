@@ -7,6 +7,7 @@ import { TopnavComponent } from './myContainer/topnav/topnav.component';
 import { HeaderComponent } from './myContainer/header/header.component';
 import { Textsec1Component } from './myContainer/textsec1/textsec1.component';
 import { Textsec2Component } from './myContainer/textsec2/textsec2.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { Textsec2Component } from './myContainer/textsec2/textsec2.component';
     Textsec2Component
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
